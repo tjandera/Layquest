@@ -1,0 +1,23 @@
+/* Brand tokens. Bootstrap 5.3 handles light/dark via [data-bs-theme]. */
+:root {
+  --lq-accent: #ff5a36;
+  --lq-xp: #ffc542;
+}
+
+[data-bs-theme='dark'] {
+  --lq-accent: #ff7a5c;
+}
+
+.btn-lq {
+  --bs-btn-bg: var(--lq-accent);
+  --bs-btn-border-color: var(--lq-accent);
+  --bs-btn-color: #fff;
+  --bs-btn-hover-bg: var(--lq-accent);
+  --bs-btn-hover-border-color: var(--lq-accent);
+  --bs-btn-hover-color: #fff;
+}
+
+.map-canvas {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
